@@ -1,0 +1,110 @@
+/* 
+- Basic Reset - the process of resetting (or more accurately – setting) the styles of all elements to a baseline value so that you avoid cross-browser differences due to their built-in default style settings this can be accomplished using * selector seen below. 
+
+- (*) as seen below as the first styling element represent a univeral selector it selects all HTML elements on a page.
+
+- setting * to { margin: 0; } removes all formatting and gives a clean styling slate to work from  
+
+- Box-sizing: border-box; With border-box, if you set an element to be 100px wide, it will stay 100px wide total, and the padding will be taken from inside that width. Without border-box if you set padding it increases the size of the box that was originally specified. 
+
+- Example: Without box-sizing: border-box; if you set a div style to { width: 100px } and you add you set padding to 20px left and right the div box will become 140px wide when we want the div box to stay 100px wide. Setting border-box keeps everything formatted exactly how you set it at the beginning. 
+
+- Flex Container: display: flex; designates an element as a flex container, making its child elements become "flex items" and participate in the flexbox layout.
+
+-Responsive Design: Flexbox is particularly useful for creating responsive layouts, as it allows elements to adapt and re-arrange themselves based on the container's size 
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+- First we seletct the body element which holds our entire app container
+- The browsers default setting for font size is = to 16px which = 1rem
+- What is rem vs px? Pixels offer absolute precision in the size of elements, but can cause problems if you want your website to be displayed correctly on screens of various sizes. - - - REMs, on the other hand, are more flexible and adapt automatically to different screen sizes, which ensures an optimal user experience. 
+
+- Responsive Web Design: The viewport is the user's visible area of a web page. The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen.
+
+*/
+
+body {
+    background: #f5efe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;  
+}
+
+.container {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* SCREENS */
+
+.screen {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+}
+/* 
+- when creating screen active class in the HTML the space represents two differnt classes so to target it in CSS we use the dot inbeween to target both classes as below
+*/
+
+.screen.active {
+    display: block;
+}
+
+/* START SCREEN */
+
+#start-screen h1 {
+    color: #e86a33;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+#start-screen p {
+    color: #666;
+    margin-bottom: 20px; 
+}
+
+#start-btn  {
+    width: 100px;
+    color: white;
+    background: #e86a33;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 10px, 0, 10px, 0; 
+}
+
+.quiz-header {
+    margin-bottom: 2rem;
+}
+
+#question-text {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
