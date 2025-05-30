@@ -1,40 +1,39 @@
 **_HTML, CSS & JavaScript - 15 Projects_**
 
-Project 1: Quiz Game start screen
-<img src="./Quiz-Game/assets/start-screen.png">
-Question 1: <img src="./Quiz-Game/assets/question1.png">
-Question 2: <img src="./Quiz-Game/assets/question2.png">
-Question 3: <img src="./Quiz-Game/assets/question3.png">
-Question 4: <img src="./Quiz-Game/assets/question4.png">
-Question 5: <img src="./Quiz-Game/assets/question5.png">
-Results Screen: <img src="./Quiz-Game/assets/results-screen.png">
+<h4><em>Project 1: Quiz Game</em><h4>
 
-Project 2: Color Palette Generator
+![image](/Quiz-Game/assets/start-screen.png)
+![image](/Quiz-Game/assets/question1.png)
+![image](/Quiz-Game/assets/question2.png)
+![image](/Quiz-Game/assets/question3.png)
+![image](/Quiz-Game/assets/question4.png)
+![image](/Quiz-Game/assets/question5.png)
+![image](/Quiz-Game/assets/results-screen.png)
 
-Project 3: Drag & Drop Board
+<h4><em>Project 2: Color Palette Generator</em><h4>
 
-Project 4: Expense Tracker
+<h4><em>Project 3: Drag & Drop Board</em><h4>
 
-Project 5: Bookmark Saver
+<h4><em>Project 4: Expense Tracker</em><h4>
 
-Project 6: Form Validator
+<h4><em>Project 5: Bookmark Saver</em><h4>
 
-Project 7: Password Generator
+<h4><em>Project 6: Form Validator</em><h4>
 
-Project 8: Todo App
+<h4><em>Project 7: Password Generator</em><h4>
 
-Project 9: Contact Form
+<h4><em>Project 8: Todo App</em><h4>
 
-Project 10: Pricing Cards
+<h4><em>Project 9: Contact Form</em><h4>
 
-Project 11: Team Members Showcase
+<h4><em>Project 10: Pricing Cards</em><h4>
 
-Project 12: Recipe Finder
+<h4><em>Project 11: Team Members Showcase</em><h4>
 
-Project 13: Currency Converter
+<h4><em>Project 12: Recipe Finder</em><h4>
 
-Project 14: Github Finder
+<h4><em>Project 13: Currency Converter</em><h4>
 
-Project 15: Custom 404 Page Design
+<h4><em>Project 14: Github Finder</em><h4>
 
-Bonus Project 16: Newsletter Signup Design
+<h4><em>Project 15: Custom 404 Page Design</em><h4>
