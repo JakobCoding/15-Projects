@@ -1,6 +1,9 @@
 **_HTML, CSS & JavaScript - 15 Projects_**
 
 <h4><em>Project 2: Color Palette Generator</em><h4>
+<h6>progress screenshot<h6>
+
+![image](/Color-Palette-Generator/assets/Progress-1.png)
 
 <h4><em>Project 1: Quiz Game</em><h4>
 
