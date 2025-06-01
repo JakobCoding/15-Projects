@@ -1,5 +1,7 @@
 **_HTML, CSS & JavaScript - 15 Projects_**
 
+<h4><em>Project 2: Color Palette Generator</em><h4>
+
 <h4><em>Project 1: Quiz Game</em><h4>
 
 ![image](/Quiz-Game/assets/start-screen.png)
@@ -9,8 +11,6 @@
 ![image](/Quiz-Game/assets/question4.png)
 ![image](/Quiz-Game/assets/question5.png)
 ![image](/Quiz-Game/assets/results-screen.png)
-
-<h4><em>Project 2: Color Palette Generator</em><h4>
 
 <h4><em>Project 3: Drag & Drop Board</em><h4>
 
